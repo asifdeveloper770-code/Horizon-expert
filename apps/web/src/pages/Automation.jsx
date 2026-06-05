@@ -85,6 +85,14 @@ const Automation = () => {
       <div className="min-h-screen pt-20">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-gray-900 via-primary to-gray-900 text-white py-20">
+          <div className="absolute inset-0">
+            <img
+              src={automationImage}
+              alt="Industrial boiler system with advanced heat technology"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70"></div>
+          </div>
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0" style={{
               backgroundImage: 'linear-gradient(90deg, rgba(177,18,38,0.3) 1px, transparent 1px), linear-gradient(rgba(177,18,38,0.3) 1px, transparent 1px)',

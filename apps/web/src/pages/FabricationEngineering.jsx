@@ -78,7 +78,15 @@ const FabricationEngineering = () => {
       <div className="min-h-screen pt-20">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-gray-900 to-gray-800 text-white py-20">
-          <div className="container mx-auto px-4">
+          <div className="absolute inset-0">
+            <img
+              src={fabricationPlant}
+              alt="Industrial fabrication workshop showing welding and manufacturing equipment"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70"></div>
+          </div>
+          <div className="container mx-auto px-4 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}

@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
 import Modern_water from '@/assets/images/Modern water treatment plant.png';
+import water from '@/assets/images/Water Treatment Plants.png';
 
 const WaterTreatment = () => {
   const { toast } = useToast();
@@ -63,7 +64,15 @@ const WaterTreatment = () => {
       <div className="min-h-screen pt-20">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
-          <div className="container mx-auto px-4">
+          <div className="absolute inset-0">
+            <img
+              src={water}
+              alt="Modern water treatment plant"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/90 to-primary/70"></div>
+          </div>
+          <div className="container mx-auto px-4 relative z-10">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
