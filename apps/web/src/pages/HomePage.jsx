@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import heroVideo from "@/assets/intro-video.mp4";
+import heroVideo from "@/assets/background.mp4";
 import Pharmaceutical_Machinery from "@/assets/images/Pharmaceutical Machinery.png";
 import Automation from '@/assets/images/Automation & Electrical Panels.png';
 import Water_Treatment from '@/assets/images/Water Treatment Plants.png';
