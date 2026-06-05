@@ -1,4 +1,4 @@
-import back from "../assets/LogoAnimation.mp4";
+import back from "@/assets/logoAnimation.mp4";
 
 export function IntroOverlay() {
   return (
